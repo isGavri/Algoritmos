@@ -36,7 +36,7 @@ https://www.gingerbill.org/series/memory-allocation-strategies/
 
 ### Queue
 First data structure of this build up and easiest one also.
-The queue is represented by this struct.
+The queue is represented by this struct. Logically its a linkear singly linked list.
 ```c
 typedef struct QueueNode {
     int value;

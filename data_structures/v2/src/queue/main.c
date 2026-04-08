@@ -4,10 +4,11 @@
 #include "queue.h"
 
 
+// loops thourgh the queue printing all of the nodes
 static void print_queue(const Queue* queue) {
     const QueueNode* current;
 
-    printf("queue(size=%zu): ", queue->size);
+    printf("queue(size=%d): ", queue->size);
     current = queue->front;
     while (current != NULL) {
         printf("%d", current->value);
